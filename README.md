@@ -24,7 +24,6 @@ The second part of the program will do the following:
 - Print out the [ASCII](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) value of the character
 - If it’s a letter, prints out where it is in the alphabet (A=1st, B=2nd, C=3rd, etc., and print the proper suffix (st, nd, rd, th, etc.)
   - Hint: Look for a pattern in the ASCII table 
-
 ## Sample Output
 
 Output should be well formatted and look similar to this:

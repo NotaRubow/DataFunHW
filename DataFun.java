@@ -30,6 +30,10 @@ public class DataFun{
             {
                 System.out.println("It is greater than 10");
             }
+            else if (userFavInt>0)
+            {
+                System.out.println("It is greater than 0");
+            }
             else
             {
                 System.out.println("It is less than 0");
@@ -67,6 +71,7 @@ public class DataFun{
                 break;
             
             }
+
         System.out.println("What is your favorite Character? ");
         try (Scanner cool = new Scanner(System.in)) {
             String userInput =  cool.nextLine();
@@ -83,10 +88,30 @@ public class DataFun{
             }
             else{
             System.out.println(userFavChar + " is not a vowel.");
+            }
+            System.out.print(userFavChar + " ASCII value is: ");
+            System.out.println((int)userFavChar);
+            userFavChar = Character.toUpperCase(userFavChar);
+            if ((userFavChar >= 68 && userFavChar<=84)||(userFavChar>=88 && userFavChar<=90)||(userFavChar>=101 && userFavChar<=116)|| (userFavChar>=120 && userFavChar<=122)){
+               System.out.println("Your favorite character is the " +(userFavChar - 'A' + 1)+"th letter of the alphabet");
+               
+            }
+            if (userFavChar == 65 || userFavChar == 97 || userFavChar == 85 || userFavChar == 117)
+            {
+                System.out.println("Your favorite character is the " +(userFavChar - 'A' + 1)+"rst letter of the alphabet");
+            }
+            if (userFavChar == 66 || userFavChar == 98 || userFavChar == 86 || userFavChar == 118)
+            {
+                System.out.println("Your favorite character is the " +(userFavChar - 'A' + 1)+"nd letter of the alphabet");
+            }
+            if (userFavChar == 67 || userFavChar == 99 || userFavChar == 87 || userFavChar == 119)
+            {
+                System.out.println("Your favorite character is the " +(userFavChar - 'A' + 1)+"rd letter of the alphabet");
+            }
         }
-        if (userFavChar == )
+        
     }
     }
     
-    }
 }
+
