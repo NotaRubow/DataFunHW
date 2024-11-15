@@ -77,8 +77,16 @@ public class DataFun{
             if (Character.isLowerCase(userFavChar)){
                 System.out.println(userFavChar +" is lowercase");
             }
+        
+            if (userFavChar == 'a' || userFavChar == 'e' || userFavChar == 'i' || userFavChar == 'o' || userFavChar == 'u' ||userFavChar == 'A' || userFavChar == 'E' || userFavChar == 'I' || userFavChar == 'O' || userFavChar == 'U'){
+                System.out.println(userFavChar + " is a vowel");
+            }
+            else{
+            System.out.println(userFavChar + " is not a vowel.");
         }
-        }
+        if (userFavChar == )
+    }
     }
     
+    }
 }
